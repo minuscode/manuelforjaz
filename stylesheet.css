@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	background-color: #e4e3e3;
+}
+
+.content {
+	font-family: Cambria, Georgia, serif;
+	text-transform: uppercase;
+	margin: 40px auto 0;
+	position: relative;
+	width: 1200px;
+	overflow: hidden;
+	text-align: center;
+	background: url(images/bg-line.png) center 720px no-repeat, url(images/bg.png) center 220px no-repeat;
+	background-size: 820px, 1220px;
+}
+
+.content h2, .content p {
+	color: #f7f7f7;
+}
+
+.content h2 {
+	font-weight: lighter;
+}
+
+.content p {
+	font-size: 1.9em;
+}
+
+.video {
+	margin: 10px auto 40px;
+}
+
+iframe {
+	border: 10px solid #fff;
+}
+
+form {
+	margin-top: 95px;
+}
+
+input, button {
+	margin: 0 auto;
+	display: block;
+}
+
+input {
+	background-color: #fbdcd1;
+	width: 590px;
+	height: 60px;
+	line-height: 1.2em;
+	border: none;
+	margin-bottom: 5px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+	font-family: Cambria, Georgia, serif;
+	text-transform: uppercase;
+  font-size: 18px;
+  font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	font-family: Cambria, Georgia, serif;
+	text-transform: uppercase;
+  font-size: 18px;
+  font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	font-family: Cambria, Georgia, serif;
+	text-transform: uppercase;
+  font-size: 18px;
+  font-style: italic;
+}
+
+:-ms-input-placeholder {  
+	font-family: Cambria, Georgia, serif;
+	text-transform: uppercase;
+  font-size: 18px; 
+  font-style: italic; 
+}
+
+button {
+	cursor: pointer;
+	font-family: Cambria, Georgia, serif;
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #e85221;
+	margin-top: 120px;
+	margin-bottom: 180px;
+	background-color: #e3e3e3;
+	width: 126px;
+	height: 126px;
+	border: 4px solid #f5ae96;
+	border-radius: 50%;
+}
+
+footer {
+	font-family: Cambria, Georgia, serif;
+	text-align: center;
+	font-size: 11px;
+	margin-bottom: 55px;
+	color: #9c9c9c;
+}
