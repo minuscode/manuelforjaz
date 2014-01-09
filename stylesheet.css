@@ -106,6 +106,10 @@ button {
 	border-radius: 50%;
 }
 
+button:active {
+	border: none;
+}
+
 footer {
 	font-family: Cambria, Georgia, serif;
 	text-align: center;
