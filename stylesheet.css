@@ -50,6 +50,10 @@ input, button {
 }
 
 input {
+	font-family: Cambria, Georgia, serif;
+	text-transform: uppercase;
+  font-size: 18px;
+  font-style: italic;
 	background-color: #fbdcd1;
 	width: 590px;
 	height: 60px;
