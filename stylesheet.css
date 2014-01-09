@@ -64,6 +64,12 @@ input {
   text-align: center;
 }
 
+input:focus {
+	border-color: rgba(245, 175, 152, 1);
+	box-shadow: 0 1px 1px rgba(245, 175, 152, 1) inset, 0 0 8px rgba(245, 175, 152, 1);
+	outline: 0 none;
+}
+
 ::-webkit-input-placeholder {
 	color: #3f5364;
 	font-family: Cambria, Georgia, serif;
