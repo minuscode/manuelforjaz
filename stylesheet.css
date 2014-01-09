@@ -108,6 +108,7 @@ button {
 
 button:active {
 	border: none;
+	outline:none;
 }
 
 footer {
