@@ -16,6 +16,7 @@ body {
 	width: 1200px;
 	overflow: hidden;
 	text-align: center;
+	background: url(images/bg-IE.png) center 220px no-repeat;
 	background: url(images/bg-line.png) center 720px no-repeat, url(images/bg.png) center 220px no-repeat;
 	background-size: 820px, 1200px;
 }
@@ -148,7 +149,7 @@ button:active {
 	margin-top: 4px;
 }
 
-footer {
+.footer {
 	font-family: Cambria, Georgia, serif;
 	text-align: center;
 	font-size: 11px;
